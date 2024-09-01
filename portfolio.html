@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <!-- Optei por utilizar apenas css externo.-->
+    <!-- Dei preferência ao css externo; o interno é utilizado experimentalmente em algumas partes.-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="/index">Sobre mim</a> |
-        <a href="/formacao/" >Formação</a> |
-        <a href="/portfolio/" class="active">Portfólio</a> |
-        <a href="/contato/">Contato</a> |
-        </nav>
+    <nav align="center">
+        <a href="index.html">Sobre mim</a> |
+        <a href="formacao.html">Formação</a> |
+        <a href="portfolio.html" class="active">Portfólio</a> |
+        <a href="contato.html">Contato</a> |
+    </nav>
 
-<h1>Portfólio</h1>
-    <div>
-        <h2>Música erudita</h2>
-            <p>Iniciei meus estudos musicais ainda na infância, com o violão popular. </p>
-            <p>Em 2012, dei início aos estudos de violoncelo e teorial musical na Escola 
-                de Música de Brasília.</p>
-            <p>Na mesma instituição estudei também arranjo e composição.</p>    
+<h1 align="center">Portfólio</h1>
+    <div id="conteudo">
+        <div class="card">
+            <h2>Performance</h2>
+            <p> Participação na Orquestra Sinfônica. Peça: 9ª Sinfonia de Beethoven.</p>
+            <!-- a ideia é exibir um vídeo nesta seção -->
+            <iframe width="90%; position:relative;" src="ttps://www.youtube.com/watch?v=CauD2KdZBN4"></iframe>
+        </div>
+        
+        <div class="card">
+            <h2>Arranjo</h2>
+            <!-- a ideia é exibir a amostra de um arranjo preparado pelo músico -->
+            <p> Amostra de arranjo do 4º Mov. da 9ª Sinfonia de Beethoven para trio.</p>
+            <!-- somente consegui centralizar a imagem na div utilizando display:block-->
+            <img  src="img/arranjo.JPG" style="margin:auto; width:80%; display:block;"></img>
+            </div>
     </div>
-    <h2>Música popular</h2>
-    <p>Iniciei meus estudos musicais ainda na infância, com o violão popular. </p>
-    <p>Em 2012, dei início aos estudos de violoncelo e teorial musical na Escola 
-        de Música de Brasília.</p>
-    <p>Na mesma instituição estudei também arranjo e composição.</p>    
-</div>
-    
+
+    <footer>
+        <p>Este é um trabalho da disciplina <bold>Fundamentos de Desenvolvimento WEB</bold>, 
+            do curso de Ciência de Dados da UNINTER.</p>
+    </footer>    
+
+   
 </body>
 </html>

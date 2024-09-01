@@ -8,22 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="/index">Sobre mim</a> |
-        <a href="/formacao/" >Formação</a> |
-        <a href="/portfolio/">Portfólio</a> |
-        <a href="/contato/" class="active">Contato</a> |
-        </nav>
+    <nav align="center">
+        <a href="index.html">Sobre mim</a> |
+        <a href="formacao.html" >Formação</a> |
+        <a href="portfolio.html">Portfólio</a> |
+        <a href="contato.html" class="active">Contato</a> |
+    </nav>
+    <h1 align="center">Contato</h1>
 
-<h1>Contato</h1>
-    <div>
-        <h2>WhatsApp</h2>
-            <p>(61)98106-1491 </p>
+    <!-- nas divs das demais página com id conteudo, o texto estava justificado;
+    adicionei css interno aqui, na página de contatos, para centralizá-lo.
+    talvez não seja a melhor prática.-->
+    <div id="conteudo" style="text-align:center;">
+
+        <div class="card" >
+            <h2>WhatsApp</h2>
+                <p>(61)98106-1491 </p>
+        </div>
+        
+        <div class="card">
+            <h2>E-mail</h2>
+                <p>yuriaugusto7@gmail.com</p>
+        </div>
     </div>
-    
-    <div>
-        <h2>E-mail</h2>
-            <p>yuriaugusto7@gmail.com</p>
-    </div>
+        <footer>
+            <p>Este é um trabalho da disciplina <bold>Fundamentos de Desenvolvimento WEB</bold>, 
+                do curso de Ciência de Dados da UNINTER.</p>
+        </footer>    
+
 </body>
 </html>
